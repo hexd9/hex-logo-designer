@@ -34,9 +34,11 @@ inquirer.prompt([
             break
         case 'Circle':
             // create circle
+            shape = new Circle(response.text, response.colorShape, response.colorText) 
             break
         case 'Square':
             // create square
+            shape = new Square(response.text, response.colorShape, response.colorText) 
             break
     }
     writeFile('shape.svg', shape.render())
