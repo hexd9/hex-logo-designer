@@ -6,9 +6,9 @@ const {Triangle, Circle, Square} = require('./lib/shapes')
 inquirer.prompt([
     {
         type: 'input',
-        message: 'what is the color of the shape?',
-        name: 'colorShape'
-    }, 
+        message: 'What is the message inside of shape?',
+        name: 'text',
+    },
     {
         type: 'input',
         message: 'what is the color of the text?',
@@ -22,9 +22,11 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        message: 'What is the message inside of shape?',
-        name: 'text',
-    },
+        message: 'what is the color of the shape?',
+        name: 'colorShape'
+    }, 
+
+    
 ]).then(function(response) {
     let shape 
     switch(response.shape) {
