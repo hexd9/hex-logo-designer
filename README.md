@@ -4,7 +4,7 @@
 
 This is a Node.js command-line application that allows you to generate a simple logo for your projects. With this application, you can customize the logo's text, color, and shape. The generated logo is saved as an SVG file that you can open in a browser.
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
